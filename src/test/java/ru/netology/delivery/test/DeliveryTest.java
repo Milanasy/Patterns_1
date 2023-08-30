@@ -18,7 +18,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class DeliveryTest {
     @BeforeEach
     void setup() {
-        open("http://localhost:9999");
+        open("http://localhost:8080");
     }
 
     @Test
